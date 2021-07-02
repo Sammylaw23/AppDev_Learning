@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\AppDevBJ\BackgroundJob_AppDev\bin\Debug\BackgroundJob_AppDev.exe.config
+C:\Users\HP\source\repos\AppDevBJ\BackgroundJob_AppDev\bin\Debug\BackgroundJob_AppDev.exe
+C:\Users\HP\source\repos\AppDevBJ\BackgroundJob_AppDev\bin\Debug\BackgroundJob_AppDev.pdb
+C:\Users\HP\source\repos\AppDevBJ\BackgroundJob_AppDev\obj\Debug\BackgroundJob_AppDev.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\AppDevBJ\BackgroundJob_AppDev\obj\Debug\BackgroundJob_AppDev.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\AppDevBJ\BackgroundJob_AppDev\obj\Debug\BackgroundJob_AppDev.exe
+C:\Users\HP\source\repos\AppDevBJ\BackgroundJob_AppDev\obj\Debug\BackgroundJob_AppDev.pdb

@@ -1,0 +1,30 @@
+public bool SendEmailGmail(string recipient, string EmailSubject,string messageBody)
+        {
+            try
+            {
+                Admin admin = new Admin();
+
+                MailMessage message = new MailMessage();
+                SmtpClient smtp = new SmtpClient();
+                message.From = new MailAddress(_admin.AdminEmail);
+                message.To.Add(new MailAddress(recipient));
+                message.Subject = EmailSubject;
+                message.Body = messageBody;
+
+                smtp.Port = 587;
+                smtp.Host = "smtp.gmail.com"; //for gmail host  
+                smtp.EnableSsl = true;
+                smtp.UseDefaultCredentials = false;
+                smtp.Credentials = new NetworkCredential(_admin.AdminEmail, _admin.AdminPassword);
+                smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+                smtp.Send(message);
+
+                return true;
+            }
+            
+            catch (Exception ex)
+            {
+                return false;
+                //https://accounts.google.com/DisplayUnlockCaptcha
+            }
+        }

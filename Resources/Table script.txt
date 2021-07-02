@@ -1,0 +1,24 @@
+CREATE TABLE [dbo].[Customers](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[LastName] [varchar](60) NULL,
+	[FirstName] [varchar](60) NULL,
+	[Gender] [char](1) NULL,
+	[Email] [varchar](60) NOT NULL,
+	[EmailSent] [char](1) NULL,
+	[DateSent] [datetime] NULL,
+ CONSTRAINT [PK_Customers] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+
+INSERT INTO Customers VALUES ('AppDev','AppDev','M','appdev@gtbank.com','0',NULL)
+  INSERT INTO Customers VALUES ('Saliu','Ayodeji','M','ayodeji.saliu@gtbank.com','0',NULL)
+  INSERT INTO Customers VALUES ('Ikpeteshi','Jennifer','F','ikpeteshi.jennifer@gtbank.com','0',NULL)
+  INSERT INTO Customers VALUES ('Samuel','Lawal','M','samuel.lawal@gtbank.com','0',NULL)
+  INSERT INTO Customers VALUES ('Ikem','Ezechukwu','M','ikem.ezechukwu@gtbank.com','0',NULL)
+  INSERT INTO Customers VALUES ('Kehinde','Disu','F','kehinde.disu@gtbank.com','0',NULL)
+  INSERT INTO Customers VALUES ('Daniel','Elegberun','M','daniel.elegberun@gtbank.com','0',NULL)
